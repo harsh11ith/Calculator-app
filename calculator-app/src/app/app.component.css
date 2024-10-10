@@ -1,0 +1,120 @@
+.mycalc{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    border-radius: 15px;
+    background-color: rgb(139, 113, 113);
+    border: none;
+}
+
+.all-btn {
+    display: flex;
+}
+.all-btn-numbers{
+    display: flex;
+    width: 210px;
+    flex-wrap: wrap;
+}
+.all-btn-signs {
+    display: flex;
+    flex-direction: column;
+}
+
+.all-btn-numbers button{
+    background-color: white;
+    border: none;
+    margin: 10px;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    border-radius: 50px;
+    width: 50px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.all-btn-signs button{
+    background-color: rgb(233, 233, 119);
+    border: none;
+    margin: 10px;
+    color: rgb(11, 11, 11);
+    font-size: 25px;
+    border-radius: 50px;
+    width: 50px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-weight: 700;
+}
+
+.all-btn-signs button:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 20px 5px rgb(255, 252,55);
+}
+
+.all-btn-numbers button:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 40px 1px rgb(255, 255, 255);
+}
+
+.btn-extra{
+    display: flex; 
+}
+.btn-extra button{
+    background-color: rgb(233, 233, 119);
+    color: black;
+}
+
+.btn-extra button:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 40px 1px rgb(255, 255, 255);
+}
+
+.btn-clear-equals{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.btn-clear-equals button{
+    width: 120px;
+    font-size: 30px;
+    padding: 5px;
+    margin: 10px 5px;
+    border-radius: 10px;
+    border: none;
+}
+
+#clear{
+    color: rgb(255, 45, 45);
+    background-color: black;
+}
+
+#equals{
+    color: rgb(233, 233, 119);
+    background-color: black;
+}
+
+#clear:hover, 
+#equals:hover{
+    background-color: white;
+    cursor: pointer;
+}
+
+input{
+    width: 80%;
+    margin: 10px 0px;
+    font-size: 20px;
+    padding: 10px;
+    font-weight: 700;
+    border-radius: 15px;
+    border: none;
+    text-align: right;
+}
+
+input:focus {
+    outline: none;
+    border: 1px solid (75, 75, 75);
+}
